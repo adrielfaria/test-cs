@@ -1,13 +1,13 @@
 import preguntas from '../preguntas/preguntas.component';
 import { useState } from "react";
-
-import morty from 'C:/Users/adrie/personal/personality-test/src/assets/morty.jpg'
-import nico from 'C:/Users/adrie/personal/personality-test/src/assets/nico.jpg'
-import silver from 'C:/Users/adrie/personal/personality-test/src/assets/silver.jpg'
-import nova from 'C:/Users/adrie/personal/personality-test/src/assets/nova.jpg'
-import ak from 'C:/Users/adrie/personal/personality-test/src/assets/ak.jpg'
-import eagle from 'C:/Users/adrie/personal/personality-test/src/assets/aguila.jpg'
-import global from 'C:/Users/adrie/personal/personality-test/src/assets/global.jpg'
+/*import shooter from '../../assets/shooter.jpg'
+import morty from '../../assets/morty.jpg'
+import nico from '../../assets/nico.jpg'
+import silver from '../../assets/silver.jpg'
+import nova from '../../assets/nova.jpg'
+import ak from '../../assets/ak.jpg'
+import eagle from '../../assets/aguila.jpg'
+import global from '../../assets/global.jpg'*/
 
 import './pet-test.styles.css';
 
@@ -33,8 +33,8 @@ const PetTest = () => {
         <div className='question-title'>
           <span className='respuesta'>Sos un plata, malo de mierda</span>
         </div>
-        <img src={morty} alt="morty"/>
-        <div><img className='silver' src={silver} alt="silver"/></div>
+        
+        
         <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
       </div>
     </main>
@@ -45,8 +45,8 @@ const PetTest = () => {
           <div className='question-title'>
             <span className='respuesta'>Sos un novita, casi tan malo como nico</span>
           </div>
-          <img src={nico} alt="nico"/>
-          <div><img className='silver' src={nova} alt="nova"/></div>
+          
+          
           <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
         </div>
       </main>
@@ -57,7 +57,7 @@ const PetTest = () => {
             <div className='question-title'>
               <span className='respuesta'>Sos ak</span>
             </div>
-            <div><img className='silver' src={ak} alt="ak"/></div>
+            
             <button onClick={() => window.location.href = '/'}>Estas hardstuck en ak</button>
           </div>
         </main>
@@ -68,7 +68,7 @@ const PetTest = () => {
               <div className='question-title'>
                 <span className='respuesta'>Sos aguila, el rango de holy</span>
               </div>
-              <div><img className='silver' src={eagle} alt="eagle"/></div>
+              
               <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
             </div>
           </main>
@@ -79,8 +79,7 @@ const PetTest = () => {
                   <div className='question-title'>
                     <span className='respuesta'>Sos global, casi tan bueno como ✪$HOOT3R</span>
                   </div>
-                  <img src={shooter} alt="shooter"/>
-                  <div><img className='silver' src={global} alt="global"/></div>
+                  
                   <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
                 </div>
               </main>
