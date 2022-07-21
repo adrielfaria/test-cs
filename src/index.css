@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+	background-attachment: fixed;
+	background-position: center;
+	width: 100%;
+    background-color: #433c3c;
+	background-image: url("https://www.planetagaming.com/wp-content/uploads/2017/10/shot10a.jpg");
 }
+
+.global{
+	width: 65%;
+	margin: 0px auto;
+	margin-top: 30px;
+	background-color: #424b6e;
+	box-shadow: 0px 0px 20px gray;
+	border-radius: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.title{
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 40px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+@media (max-width: 650px){
+	.global {width: 100%;}
+}
+
+
