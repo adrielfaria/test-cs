@@ -1,13 +1,11 @@
 import preguntas from '../preguntas/preguntas.component';
 import { useState } from "react";
-/*import shooter from '../../assets/shooter.jpg'
+import shooter from '../../assets/shooter.jpg'
 import morty from '../../assets/morty.jpg'
 import nico from '../../assets/nico.jpg'
 import silver from '../../assets/silver.jpg'
 import nova from '../../assets/nova.jpg'
-import ak from '../../assets/ak.jpg'
-import eagle from '../../assets/aguila.jpg'
-import global from '../../assets/global.jpg'*/
+import global from '../../assets/global.jpg'
 
 import './pet-test.styles.css';
 
@@ -27,63 +25,42 @@ const PetTest = () => {
   }
 
   if (isFinished) {
-    if (puntuacion < 23) return(
+    if (puntuacion < 25) return(
     <main>
       <div className='test-container'>
         <div className='question-title'>
           <span className='respuesta'>Sos un plata, malo de mierda</span>
         </div>
-        
-        
+        <img src={morty} alt="morty"/>
+        <div><img className='silver' src={silver} alt="silver"/></div>
         <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
       </div>
     </main>
     );
-    if (puntuacion < 29) return(
+    if (puntuacion < 32) return(
       <main>
         <div className='test-container'>
           <div className='question-title'>
             <span className='respuesta'>Sos un novita, casi tan malo como nico</span>
           </div>
-          
-          
+          <img src={nico} alt="nico"/>
+          <div><img className='silver' src={nova} alt="nova"/></div>
           <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
         </div>
       </main>
       );
-      if (puntuacion < 31) return(
+      if (puntuacion <= 40) return(
         <main>
           <div className='test-container'>
             <div className='question-title'>
-              <span className='respuesta'>Sos ak</span>
+              <span className='respuesta'>Sos global, casi tan bueno como ✪$HOOT3R</span>
             </div>
-            
-            <button onClick={() => window.location.href = '/'}>Estas hardstuck en ak</button>
+            <img src={shooter} alt="shooter"/>
+            <div><img className='silver' src={global} alt="global"/></div>
+            <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
           </div>
         </main>
         );
-        if (puntuacion < 32) return(
-          <main>
-            <div className='test-container'>
-              <div className='question-title'>
-                <span className='respuesta'>Sos aguila, el rango de holy</span>
-              </div>
-              
-              <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
-            </div>
-          </main>
-          );
-            if (puntuacion <= 40) return(
-              <main>
-                <div className='test-container'>
-                  <div className='question-title'>
-                    <span className='respuesta'>Sos global, casi tan bueno como ✪$HOOT3R</span>
-                  </div>
-                  
-                  <button onClick={() => window.location.href = '/'}> Volver a jugar</button>
-                </div>
-              </main>
-              );
   }
 
   return (
