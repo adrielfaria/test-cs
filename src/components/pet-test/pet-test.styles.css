@@ -69,4 +69,8 @@ button {
     .test-container{
       min-width: 200px;
     }
+
+    .left-side .question-title {
+      margin-top: 15px;
+    }
   }
