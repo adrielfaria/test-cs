@@ -1,6 +1,6 @@
 import preguntas from '../preguntas/preguntas.component';
 import { useState } from "react";
-import shooter from 'C:/Users/adrie/personal/personality-test/src/assets/shooter.jpg'
+
 import morty from 'C:/Users/adrie/personal/personality-test/src/assets/morty.jpg'
 import nico from 'C:/Users/adrie/personal/personality-test/src/assets/nico.jpg'
 import silver from 'C:/Users/adrie/personal/personality-test/src/assets/silver.jpg'
