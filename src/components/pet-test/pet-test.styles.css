@@ -67,6 +67,6 @@ button {
 
   @media (max-width: 450px){
     .test-container{
-      min-width: none;
+      min-width: 200px;
     }
   }

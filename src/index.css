@@ -35,7 +35,9 @@ body{
 }
 
 @media (max-width: 650px){
-	.global {width: 100%;}
+	.global {
+		width: 100%;
+	}
 }
 
 
